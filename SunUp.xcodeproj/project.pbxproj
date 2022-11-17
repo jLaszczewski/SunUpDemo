@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05126E1029266D06002A5F1E /* UNUserNotificationCetner+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF5AFAF27D25AAB0040CF1C /* UNUserNotificationCetner+Extension.swift */; };
+		EAC4B16427D3C76A0056A25B /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC4B16327D3C76A0056A25B /* LocationService.swift */; };
+		EAC4B16727D3C8C30056A25B /* LocationCenterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC4B16627D3C8C30056A25B /* LocationCenterMock.swift */; };
+		EAC4B16D27D3CD630056A25B /* LocalNotificationCenterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC4B16C27D3CD630056A25B /* LocalNotificationCenterMock.swift */; };
+		EAC4B16F27D3CE780056A25B /* DayTimeCenterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC4B16E27D3CE780056A25B /* DayTimeCenterMock.swift */; };
+		EAC4B17A27D4AB9B0056A25B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC4B17727D4AB030056A25B /* MainView.swift */; };
+		EAC4B17E27D4B5EF0056A25B /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC4B17B27D4B59D0056A25B /* MainViewModel.swift */; };
+		EAC4B18127D4BD940056A25B /* Solar in Frameworks */ = {isa = PBXBuildFile; productRef = EAC4B18027D4BD940056A25B /* Solar */; };
+		EAC4B18427D5F9940056A25B /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EAC4B18227D5F9940056A25B /* Main.xcdatamodeld */; };
+		EAC4B18727D604810056A25B /* AlarmRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC4B18627D604810056A25B /* AlarmRepository.swift */; };
+		EAF5AF5F27D109530040CF1C /* SunUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF5AF4F27D109520040CF1C /* SunUpApp.swift */; };
+		EAF5AF6127D109530040CF1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF5AF5027D109520040CF1C /* ContentView.swift */; };
+		EAF5AF6327D109530040CF1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF5AF5127D109530040CF1C /* Assets.xcassets */; };
+		EAF5AF9027D2219B0040CF1C /* TestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF5AF8F27D2219B0040CF1C /* TestCase.swift */; };
+		EAF5AF9B27D228EA0040CF1C /* undefined.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF5AF9827D2285F0040CF1C /* undefined.swift */; };
+		EAF5AFA527D258C80040CF1C /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF5AFA427D258C80040CF1C /* Alarm.swift */; };
+		EAF5AFA827D258CA0040CF1C /* DayTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF5AFA227D258270040CF1C /* DayTime.swift */; };
+		EAF5AFAB27D259A30040CF1C /* LocalNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF5AFAA27D259A30040CF1C /* LocalNotificationCenter.swift */; };
+		EAF5AFAE27D25A510040CF1C /* NotificationCenterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF5AFAD27D25A510040CF1C /* NotificationCenterMock.swift */; };
+		EAF5AFB427D262180040CF1C /* DayTimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF5AFB127D25DA50040CF1C /* DayTimeService.swift */; };
+		EAF5AFBF27D287B50040CF1C /* String+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF5AFBE27D287B50040CF1C /* String+Random.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAF5AF8627D21FE40040CF1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAF5AF4A27D109510040CF1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAF5AF5527D109530040CF1C;
+			remoteInfo = "SunUp (iOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAC4B16327D3C76A0056A25B /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		EAC4B16627D3C8C30056A25B /* LocationCenterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCenterMock.swift; sourceTree = "<group>"; };
+		EAC4B16C27D3CD630056A25B /* LocalNotificationCenterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationCenterMock.swift; sourceTree = "<group>"; };
+		EAC4B16E27D3CE780056A25B /* DayTimeCenterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTimeCenterMock.swift; sourceTree = "<group>"; };
+		EAC4B17727D4AB030056A25B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		EAC4B17B27D4B59D0056A25B /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		EAC4B18327D5F9940056A25B /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
+		EAC4B18627D604810056A25B /* AlarmRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmRepository.swift; sourceTree = "<group>"; };
+		EAF5AF4F27D109520040CF1C /* SunUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunUpApp.swift; sourceTree = "<group>"; };
+		EAF5AF5027D109520040CF1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EAF5AF5127D109530040CF1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAF5AF5627D109530040CF1C /* SunUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF5AF8227D21FE40040CF1C /* SunUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF5AF8F27D2219B0040CF1C /* TestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCase.swift; sourceTree = "<group>"; };
+		EAF5AF9827D2285F0040CF1C /* undefined.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = undefined.swift; sourceTree = "<group>"; };
+		EAF5AFA227D258270040CF1C /* DayTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTime.swift; sourceTree = "<group>"; };
+		EAF5AFA427D258C80040CF1C /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		EAF5AFAA27D259A30040CF1C /* LocalNotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationCenter.swift; sourceTree = "<group>"; };
+		EAF5AFAD27D25A510040CF1C /* NotificationCenterMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationCenterMock.swift; sourceTree = "<group>"; };
+		EAF5AFAF27D25AAB0040CF1C /* UNUserNotificationCetner+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UNUserNotificationCetner+Extension.swift"; sourceTree = "<group>"; };
+		EAF5AFB127D25DA50040CF1C /* DayTimeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTimeService.swift; sourceTree = "<group>"; };
+		EAF5AFBE27D287B50040CF1C /* String+Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Random.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAF5AF5327D109530040CF1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC4B18127D4BD940056A25B /* Solar in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF5AF7F27D21FE40040CF1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAC4B17627D4AAC80056A25B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EAC4B17727D4AB030056A25B /* MainView.swift */,
+				EAC4B17B27D4B59D0056A25B /* MainViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		EAF5AF4927D109510040CF1C = {
+			isa = PBXGroup;
+			children = (
+				EAF5AF4E27D109520040CF1C /* SunUp */,
+				EAF5AF8327D21FE40040CF1C /* SunUpTests */,
+				EAF5AF5727D109530040CF1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAF5AF4E27D109520040CF1C /* SunUp */ = {
+			isa = PBXGroup;
+			children = (
+				EAC4B17627D4AAC80056A25B /* Main */,
+				EAF5AFA127D258170040CF1C /* AlarmManager */,
+				EAF5AF9727D228570040CF1C /* Utils */,
+				EAF5AF4F27D109520040CF1C /* SunUpApp.swift */,
+				EAF5AF5027D109520040CF1C /* ContentView.swift */,
+				EAF5AF5127D109530040CF1C /* Assets.xcassets */,
+				EAC4B18227D5F9940056A25B /* Main.xcdatamodeld */,
+			);
+			path = SunUp;
+			sourceTree = "<group>";
+		};
+		EAF5AF5727D109530040CF1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAF5AF5627D109530040CF1C /* SunUp.app */,
+				EAF5AF8227D21FE40040CF1C /* SunUpTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAF5AF8327D21FE40040CF1C /* SunUpTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAF5AFBB27D281F20040CF1C /* AlarmManager */,
+				EAF5AF8E27D221790040CF1C /* TestsUtils */,
+			);
+			path = SunUpTests;
+			sourceTree = "<group>";
+		};
+		EAF5AF8E27D221790040CF1C /* TestsUtils */ = {
+			isa = PBXGroup;
+			children = (
+				EAF5AFAD27D25A510040CF1C /* NotificationCenterMock.swift */,
+				EAF5AF8F27D2219B0040CF1C /* TestCase.swift */,
+				EAF5AFBE27D287B50040CF1C /* String+Random.swift */,
+			);
+			path = TestsUtils;
+			sourceTree = "<group>";
+		};
+		EAF5AF9727D228570040CF1C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EAF5AF9827D2285F0040CF1C /* undefined.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EAF5AFA127D258170040CF1C /* AlarmManager */ = {
+			isa = PBXGroup;
+			children = (
+				EAF5AFA227D258270040CF1C /* DayTime.swift */,
+				EAF5AFA427D258C80040CF1C /* Alarm.swift */,
+				EAF5AFAA27D259A30040CF1C /* LocalNotificationCenter.swift */,
+				EAF5AFAF27D25AAB0040CF1C /* UNUserNotificationCetner+Extension.swift */,
+				EAF5AFB127D25DA50040CF1C /* DayTimeService.swift */,
+				EAC4B16327D3C76A0056A25B /* LocationService.swift */,
+				EAC4B18627D604810056A25B /* AlarmRepository.swift */,
+			);
+			path = AlarmManager;
+			sourceTree = "<group>";
+		};
+		EAF5AFBB27D281F20040CF1C /* AlarmManager */ = {
+			isa = PBXGroup;
+			children = (
+				EAC4B16627D3C8C30056A25B /* LocationCenterMock.swift */,
+				EAC4B16C27D3CD630056A25B /* LocalNotificationCenterMock.swift */,
+				EAC4B16E27D3CE780056A25B /* DayTimeCenterMock.swift */,
+			);
+			path = AlarmManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAF5AF5527D109530040CF1C /* SunUp (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAF5AF6727D109530040CF1C /* Build configuration list for PBXNativeTarget "SunUp (iOS)" */;
+			buildPhases = (
+				EAF5AF5227D109530040CF1C /* Sources */,
+				EAF5AF5327D109530040CF1C /* Frameworks */,
+				EAF5AF5427D109530040CF1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SunUp (iOS)";
+			packageProductDependencies = (
+				EAC4B18027D4BD940056A25B /* Solar */,
+			);
+			productName = "SunUp (iOS)";
+			productReference = EAF5AF5627D109530040CF1C /* SunUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAF5AF8127D21FE40040CF1C /* SunUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAF5AF8827D21FE40040CF1C /* Build configuration list for PBXNativeTarget "SunUpTests" */;
+			buildPhases = (
+				EAF5AF7E27D21FE40040CF1C /* Sources */,
+				EAF5AF7F27D21FE40040CF1C /* Frameworks */,
+				EAF5AF8027D21FE40040CF1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAF5AF8727D21FE40040CF1C /* PBXTargetDependency */,
+			);
+			name = SunUpTests;
+			productName = SunUpTests;
+			productReference = EAF5AF8227D21FE40040CF1C /* SunUpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAF5AF4A27D109510040CF1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					EAF5AF5527D109530040CF1C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					EAF5AF8127D21FE40040CF1C = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
+						TestTargetID = EAF5AF5527D109530040CF1C;
+					};
+				};
+			};
+			buildConfigurationList = EAF5AF4D27D109510040CF1C /* Build configuration list for PBXProject "SunUp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAF5AF4927D109510040CF1C;
+			packageReferences = (
+				EAC4B17F27D4BD940056A25B /* XCRemoteSwiftPackageReference "Solar" */,
+			);
+			productRefGroup = EAF5AF5727D109530040CF1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAF5AF5527D109530040CF1C /* SunUp (iOS) */,
+				EAF5AF8127D21FE40040CF1C /* SunUpTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAF5AF5427D109530040CF1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF5AF6327D109530040CF1C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF5AF8027D21FE40040CF1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAF5AF5227D109530040CF1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF5AF6127D109530040CF1C /* ContentView.swift in Sources */,
+				EAF5AFAB27D259A30040CF1C /* LocalNotificationCenter.swift in Sources */,
+				EAF5AF5F27D109530040CF1C /* SunUpApp.swift in Sources */,
+				EAF5AFA827D258CA0040CF1C /* DayTime.swift in Sources */,
+				EAF5AF9B27D228EA0040CF1C /* undefined.swift in Sources */,
+				EAC4B16427D3C76A0056A25B /* LocationService.swift in Sources */,
+				EAC4B18727D604810056A25B /* AlarmRepository.swift in Sources */,
+				EAC4B18427D5F9940056A25B /* Main.xcdatamodeld in Sources */,
+				05126E1029266D06002A5F1E /* UNUserNotificationCetner+Extension.swift in Sources */,
+				EAC4B17A27D4AB9B0056A25B /* MainView.swift in Sources */,
+				EAF5AFA527D258C80040CF1C /* Alarm.swift in Sources */,
+				EAF5AFB427D262180040CF1C /* DayTimeService.swift in Sources */,
+				EAC4B17E27D4B5EF0056A25B /* MainViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF5AF7E27D21FE40040CF1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF5AFAE27D25A510040CF1C /* NotificationCenterMock.swift in Sources */,
+				EAF5AFBF27D287B50040CF1C /* String+Random.swift in Sources */,
+				EAC4B16F27D3CE780056A25B /* DayTimeCenterMock.swift in Sources */,
+				EAF5AF9027D2219B0040CF1C /* TestCase.swift in Sources */,
+				EAC4B16D27D3CD630056A25B /* LocalNotificationCenterMock.swift in Sources */,
+				EAC4B16727D3C8C30056A25B /* LocationCenterMock.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAF5AF8727D21FE40040CF1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAF5AF5527D109530040CF1C /* SunUp (iOS) */;
+			targetProxy = EAF5AF8627D21FE40040CF1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EAF5AF6527D109530040CF1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAF5AF6627D109530040CF1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EAF5AF6827D109530040CF1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KZ6YQBQQ7R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.letsCode.SunUp;
+				PRODUCT_NAME = SunUp;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAF5AF6927D109530040CF1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KZ6YQBQQ7R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.letsCode.SunUp;
+				PRODUCT_NAME = SunUp;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAF5AF8927D21FE40040CF1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KZ6YQBQQ7R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.letsCode.SunUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SunUp.app/SunUp";
+			};
+			name = Debug;
+		};
+		EAF5AF8A27D21FE40040CF1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KZ6YQBQQ7R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.letsCode.SunUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SunUp.app/SunUp";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAF5AF4D27D109510040CF1C /* Build configuration list for PBXProject "SunUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF5AF6527D109530040CF1C /* Debug */,
+				EAF5AF6627D109530040CF1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAF5AF6727D109530040CF1C /* Build configuration list for PBXNativeTarget "SunUp (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF5AF6827D109530040CF1C /* Debug */,
+				EAF5AF6927D109530040CF1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAF5AF8827D21FE40040CF1C /* Build configuration list for PBXNativeTarget "SunUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF5AF8927D21FE40040CF1C /* Debug */,
+				EAF5AF8A27D21FE40040CF1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EAC4B17F27D4BD940056A25B /* XCRemoteSwiftPackageReference "Solar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ceeK/Solar";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EAC4B18027D4BD940056A25B /* Solar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAC4B17F27D4BD940056A25B /* XCRemoteSwiftPackageReference "Solar" */;
+			productName = Solar;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		EAC4B18227D5F9940056A25B /* Main.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EAC4B18327D5F9940056A25B /* Main.xcdatamodel */,
+			);
+			currentVersion = EAC4B18327D5F9940056A25B /* Main.xcdatamodel */;
+			path = Main.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EAF5AF4A27D109510040CF1C /* Project object */;
+}
